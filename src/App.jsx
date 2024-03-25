@@ -1,8 +1,13 @@
+import Header from "./components/Header/header";
+import MyRoutes from "./routes/MyRoutes";
+
 function App() {
   return (
-    <>
-      <p>Hola</p>
-    </>
+    <div>
+      <Header />
+      <MyRoutes />
+
+    </div>
   );
 }
 
