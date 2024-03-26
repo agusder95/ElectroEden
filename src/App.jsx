@@ -1,11 +1,14 @@
+import Content from "./components/Content/content";
 import Header from "./components/Header/header";
 import MyRoutes from "./routes/MyRoutes";
 
 function App() {
   return (
-    <div>
+    <div style={{overflowX: 'hidden', height: '100vh'}}>
       <Header />
-      <MyRoutes />
+      <Content>
+        <MyRoutes />
+      </Content>
 
     </div>
   );

@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { colors } from '../../assets/styles/colors';
+import styled from "styled-components";
+import { colors } from "../../assets/styles/colors";
 
 export const HeaderWrapper = styled.header`
   background-color: ${colors.header};
@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  border-bottom: 1px solid ${colors.black};
+  border-bottom: 1px solid grey;
   height: 90px;
 `;
 
@@ -17,22 +17,44 @@ export const LogoCountainer = styled.div`
 `;
 
 export const UserCountainer = styled.div`
-  width: 8rem;
+  width: 60%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content:flex-end;
+  @media screen and (min-width: 320px) {
+    justify-content: flex-end;
+  }
+  @media screen and (min-width: 1024px) {
+    justify-content: space-between;
+  }
+  
+`;
+
+export const Menu = styled.div`
+  width: 100%;
+  @media screen and (min-width: 320px) {
+    display: none;
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+  }
+  align-items: center;
+  justify-content: space-around;
 `;
 
 export const IconCountainer = styled.div`
-  width: 7rem;
-  height: 45px;
+  width: 10rem;
+  height: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 `;
 
-
 export const HMenuCountainer = styled.div`
- 
+  height: 40px;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
 `;

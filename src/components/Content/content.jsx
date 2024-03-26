@@ -1,7 +1,7 @@
 import React from 'react'
 import { ContentWrapper } from './styles'
 
-const content = ({children}) => {
+const Content = ({children}) => {
   return (
     <ContentWrapper>
       {children}
@@ -9,4 +9,4 @@ const content = ({children}) => {
   )
 }
 
-export default content
+export default Content
