@@ -42,7 +42,7 @@ export const MenuContent = styled.div`
   flex-direction: column;
   border-radius: 10px;
   z-index: 0;
-  transition: left 0.3s ease-in-out;
+  transition: left 0.2s ease-in-out;
   top: 0;
   left: ${(props) => (props.$menuopen ? -185 : 185)}px;
   position: absolute;

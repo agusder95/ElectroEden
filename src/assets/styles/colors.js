@@ -5,4 +5,5 @@ export const colors = {
      red: '#db4444',
      green: '#27ce60',
      blue: '#315cea',
+     transparentButton:'#ffffff42',
 };

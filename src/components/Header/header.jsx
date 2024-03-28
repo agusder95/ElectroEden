@@ -10,7 +10,7 @@ import {
 import Image from "../UI/Image/image";
 import LogoImg from "../../assets/Images/Main/Logo.png";
 import { IconContext } from "react-icons";
-import { CiHeart, CiShoppingCart, CiUser, CiSearch } from "react-icons/ci";
+import { CiHeart, CiShoppingCart, CiUser } from "react-icons/ci";
 import Hmenu from "../UI/HMenu/hmenu";
 import SerchBar from "../UI/SerchBar/serch";
 

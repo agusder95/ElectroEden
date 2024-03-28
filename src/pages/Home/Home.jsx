@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Banner from "../../components/UI/BannerCarousell/Banner";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Banner />
+    </>
+  );
+};
 
-export default Home
+export default Home;
