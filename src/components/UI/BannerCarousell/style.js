@@ -11,6 +11,7 @@ export const BannerWrapper = styled.div`
   overflow: hidden;
   overflow:hidden;
   position:relative;
+  margin-top: 2rem;
 `;
 
 export const BannerButtonCountainer = styled.div`

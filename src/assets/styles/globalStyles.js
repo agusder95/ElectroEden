@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
           box-sizing: border-box;
           font-family: 'Nunito', sans-serif;  /* Changue FF */
           scroll-behavior: smooth;
-          background-color: ${colors.white};
+          background-color: ${colors.header};
           @media screen and (min-width: 320px) {
                font-size: 16px;
           }
