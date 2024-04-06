@@ -7,4 +7,5 @@ export const colors = {
      blue: '#315cea',
      grey: '#b3b3b3',
      transparentButton:'#ffffff42',
+     bar:'#0000001f',
 };

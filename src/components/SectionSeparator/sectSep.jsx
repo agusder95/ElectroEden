@@ -1,11 +1,19 @@
 import React from "react";
-import { SectionSeparatorWrapper, SepColor, Txt } from "./styles";
+import {
+  SectionSeparatorWrapper,
+  SepColor,
+  TitleCountainer,
+  Txt,
+} from "./styles";
 
-const SectionSeparator = ({ sectionName }) => {
+const SectionSeparator = ({ sectionName,title }) => {
   return (
     <SectionSeparatorWrapper>
-      <SepColor />
-      <Txt>{sectionName}</Txt>
+      <TitleCountainer>
+        <SepColor />
+        <Txt>{sectionName}</Txt>
+      </TitleCountainer>
+      <h1>{title}</h1>
     </SectionSeparatorWrapper>
   );
 };

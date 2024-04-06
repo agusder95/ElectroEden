@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
           scroll-behavior: smooth;
           background-color: ${colors.header};
           @media screen and (min-width: 320px) {
-               font-size: 16px;
+               font-size: 12px;
           }
           @media screen and (min-width: 768px) {
                font-size: 18px;

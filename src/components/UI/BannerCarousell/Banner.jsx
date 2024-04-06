@@ -11,7 +11,6 @@ import {
 import { BannerIMG } from "../../../constants/banner";
 import Image from "../Image/image";
 import { IconContext } from "react-icons";
-
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 const Banner = () => {
   const ammountImg = BannerIMG.length;

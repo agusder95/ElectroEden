@@ -9,7 +9,6 @@ export const BannerWrapper = styled.div`
   justify-content: center;
   display: flex;
   overflow: hidden;
-  overflow:hidden;
   position:relative;
   margin-top: 2rem;
 `;
