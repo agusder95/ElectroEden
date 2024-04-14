@@ -14,9 +14,8 @@ import Button from "../Button/button";
 import { colors } from "../../../assets/styles/colors";
 
 const ProductsCarousell = () => {
-
-  const prodArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-  const arrayProducts = prodArray.slice(0, 8)
+  const prodArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+  const arrayProducts = prodArray.slice(0, 8);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardPerScreen, setCardPerScreen] = useState(0);
@@ -63,10 +62,10 @@ const ProductsCarousell = () => {
     }
   };
 
-  useEffect(()=>{
-    currentIndex <= 0 ? setPrevBtn(true) : setPrevBtn(false)
-    currentIndex >= cardsQuantity ? setNextBtn(true) : setNextBtn(false)
-  },[moveValue])
+  useEffect(() => {
+    currentIndex <= 0 ? setPrevBtn(true) : setPrevBtn(false);
+    currentIndex >= cardsQuantity ? setNextBtn(true) : setNextBtn(false);
+  }, [moveValue]);
 
   const handleNext = () => {
     if (currentIndex < cardsQuantity) {
@@ -105,9 +104,14 @@ const ProductsCarousell = () => {
           ))}
         </CarousellCountainer>
       </ProductCardCountainer>
-      <Button text="View all" width={"180px"} height={"80px"} color={colors.red}/>
+      <Button
+        text="View All Products"
+        width={"180px"}
+        height={"80px"}
+        color={colors.red}
+        txtColor={colors.white}
+      />
     </ProductsCarousellWrapper>
-    
   );
 };
 

@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { CategoriesContainer, SCategoriesWrapper, CategoriesCube } from './styles'
 import Title from '../UI/Title/title';
 import CategoryBtn from '../UI/CategButton/categButton'
 import {FiCamera, FiMonitor, FiHeadphones, FiSmartphone, FiWatch } from "react-icons/fi";
 import { BsController } from "react-icons/bs";
+import ProductsCarousell from '../UI/ProductsCarousell/ProdCarousell';
 
 const SectCategories = () => {
+     const [activeCat, setActiveCat] = useState('')
+     
   const arrayCateg = [
      {
           id:0,
@@ -37,7 +40,13 @@ const SectCategories = () => {
           category: "Smartwatch",
           icon: <FiWatch/>
      }
-  ]   
+  ] 
+
+  const handleCateg = (categ) => {
+     categ === activeCat ? setActiveCat("") : setActiveCat(categ)
+  }
+
+
 
   return (
     <SCategoriesWrapper>
@@ -45,9 +54,16 @@ const SectCategories = () => {
      <CategoriesContainer>
           {
                arrayCateg.map((item)=>
-               <CategoryBtn key={item.id} icon={item.icon} txt={item.category} click={() => console.log(item.category)}/>)
+               <CategoryBtn key={item.id} icon={item.icon} txt={item.category} click={() => handleCateg(item.category)} active={activeCat === item.category}/>)
           }
      </CategoriesContainer>
+          {
+               !activeCat ? null : 
+               <>
+                    <p>{activeCat}</p>
+                    <ProductsCarousell/>
+               </>
+          }
     </SCategoriesWrapper>
   )
 }

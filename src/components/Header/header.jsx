@@ -28,7 +28,7 @@ const MenuItems = () => {
 const Header = () => {
   return (
     <HeaderWrapper>
-      <LogoCountainer>
+      <LogoCountainer onClick={() => window.location.href = "/"}>
         <Image src={LogoImg} alt={"logo"} objectFit={"contain"} />
       </LogoCountainer>
       <UserCountainer>

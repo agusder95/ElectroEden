@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import { colors } from '../../../assets/styles/colors';
 
 export const CategoryBtnWrapper = styled.button`
-  /* width:100px;
-  height:100px; */
-  background-color: ${colors.white};
+  background-color: ${props=> props.$active ? colors.red : colors.white};
   border-radius: 5px;
   border: 1px solid ${colors.grey};
   margin:10px;
@@ -12,7 +10,7 @@ export const CategoryBtnWrapper = styled.button`
   flex-direction:column;
   justify-content: center;
   align-items: center;
-
+  color:${colors.blackSoft};
   @media screen and (min-width: 320px) {
     width: 100px;
     height: 100px;
@@ -24,6 +22,13 @@ export const CategoryBtnWrapper = styled.button`
   @media screen and (min-width: 1024px) {
     width: 150px;
     height: 150px;
+  }
+
+  &:active{
+    border: 3px solid ${colors.red};
+    background-color: ${colors.white};
+    color: ${colors.grey};
+    padding: 15px;
   }
 `;
 
