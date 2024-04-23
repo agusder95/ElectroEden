@@ -63,7 +63,7 @@ export const PRODUCTS = [
     description:
       "Creating distinctive stories with DSLR quality photos and Full HD movies is easier than you think with the 18 Megapixel EOS Rebel T100. Share instantly and shoot remotely via your compatible smartphone with Wi-Fi®* and the Canon Camera Connect app",
     rating: 4.5,
-    qRating: 3,
+    reviews: 3,
     stock: 10,
     sale: 0,
   },
@@ -76,7 +76,7 @@ export const PRODUCTS = [
     description:
       "With a perfectly positioned selfie mirror, Close-up mode, automatic flash control and the ability to produce INSTAX MINI instant photos, the INSTAX MINI 12 camera is much more than just a pretty face. Its a selfie extraordinaire",
     rating: 4.6,
-    qRating: 12,
+    reviews: 12,
     stock: 20,
     sale: 10,
   },
@@ -89,7 +89,7 @@ export const PRODUCTS = [
     description:
       "Get instant push notifications when motion, person or baby crying is detected, there is no additional fee to use it as a baby camera monitor. Discern from notifications that matter, so youll know if its your pet playing around or if someone is actually there",
     rating: 3.8,
-    qRating: 9,
+    reviews: 9,
     stock: 5,
     sale: 0,
   },
@@ -102,7 +102,7 @@ export const PRODUCTS = [
     description:
       "Webcams taken to a whole new level with auto-focus feature to let you enjoy using it from as close or far as you want",
     rating: 4.0,
-    qRating: 4,
+    reviews: 4,
     stock: 3,
     sale: 0,
   },
@@ -115,7 +115,7 @@ export const PRODUCTS = [
     description:
       "StreamCam streams and records in full HD 1080p resolution at 60 fps, delivering stunning video content with smooth motion to every aspect of your online world.",
     rating: 3.8,
-    qRating: 7,
+    reviews: 7,
     stock: 15,
     sale: 12,
   },
@@ -128,7 +128,7 @@ export const PRODUCTS = [
     description:
       "Get everything up close with powerful 35x optical zoom, Minimized Blur with optical SteadyShot image stabilization, Please refer the user guide and the user manual before use",
     rating: 3.8,
-    qRating: 4,
+    reviews: 4,
     stock: 7,
     sale: 0,
   },
@@ -141,7 +141,7 @@ export const PRODUCTS = [
     description:
       "Vlog Camera for Content Creators and Vloggers. Ultra-wide 18-50mm1 zoom lens gets it all in the frame, Large 1.0-type sensor for professional results even in low-light",
     rating: 4.7,
-    qRating: 12,
+    reviews: 12,
     stock: 2,
     sale: 31,
   },
@@ -154,7 +154,7 @@ export const PRODUCTS = [
     description:
       "ASUS TUF Gaming F15 Gaming Laptop, 15.6” 144Hz FHD Display, Intel Core i5-11400H Processor, GeForce RTX 2050, 8GB DDR4 RAM, 512GB PCIe SSD Gen 3, Wi-Fi 6, Windows 11, FX506HF-ES51,Graphite Black",
     rating: 4.2,
-    qRating: 3,
+    reviews: 3,
     stock: 4,
     sale: 5,
   },
@@ -167,7 +167,7 @@ export const PRODUCTS = [
     description:
       "Dell XPS 17 Laptop 9710, 17in UHD+ Touch Display, Intel i7-11800H, GeForce RTX 3050, 32GB RAM, 1TB SSD, IR Camera, Backlit Keyboard, Fingerprint Reader, Wi-Fi 6, Thunderbolt, Win 10 Pro",
     rating: 4.1,
-    qRating: 7,
+    reviews: 7,
     stock: 5,
     sale: 0,
   },
@@ -180,7 +180,7 @@ export const PRODUCTS = [
     description:
       "HP OMEN 17 inch Laptop, QHD 165Hz Display, 3ms Response Time, Intel Core i7-13700HX, 16 GB RAM, 512 GB SSD, NVIDIA GeForce RTX 4070 GPU (8 GB), Windows 11 Home, 17-cm2020nr",
     rating: 4.7,
-    qRating: 12,
+    reviews: 12,
     stock: 1,
     sale: 12,
   },
@@ -193,7 +193,7 @@ export const PRODUCTS = [
     description:
       "2022 Apple MacBook Air Laptop with Apple M2 chip (13.6-inch, 8GB RAM, 256GB SSD Storage) Midnight (Renewed)",
     rating: 3.6,
-    qRating: 9,
+    reviews: 9,
     stock: 8,
     sale: 0,
   },
@@ -206,7 +206,7 @@ export const PRODUCTS = [
     description:
       "Apple 2022 MacBook Pro Laptop with M2 chip: 13-inch Retina Display, 8GB RAM, 512GB ​​​​​​​SSD ​​​​​​​Storage, Touch Bar, Backlit Keyboard, FaceTime HD Camera. Works with iPhone and iPad; Space Gray",
     rating: 3.8,
-    qRating: 6,
+    reviews: 6,
     stock: 3,
     sale: 5,
   },
@@ -219,7 +219,7 @@ export const PRODUCTS = [
     description:
       "Apple 2023 MacBook Pro Laptop M2 Pro chip with 12‑core CPU and 19‑core GPU: 16.2-inch Liquid Retina XDR Display, 16GB Unified Memory, 512GB SSD Storage. Works with iPhone/iPad; Silver ",
     rating: 4.5,
-    qRating: 6,
+    reviews: 6,
     stock: 10,
     sale: 10,
   },
@@ -232,7 +232,7 @@ export const PRODUCTS = [
     description:
       "SAMSUNG 15.6-inch Galaxy Book3 Business Laptop Computer/Windows 11 PRO/16GB - 512GB/ 13th Gen Intel® Core i5-1335U Processor, 2023 Model, NP754XFG-KB2US, Silver",
     rating: 4,
-    qRating: 3,
+    reviews: 3,
     stock: 7,
     sale: 0,
   },
@@ -245,7 +245,7 @@ export const PRODUCTS = [
     description:
       "SAMSUNG 16-inch Galaxy Book4 Pro Business Laptop, Wi-Fi PC Computer, Intel Core 7 Ultra 155H / 32GB / 1TB, 3K AMOLED (2880 x 1800) Touchscreen, 2024 Model, NP964XGK-KG1US, Moonstone Gray",
     rating: 4.2,
-    qRating: 13,
+    reviews: 13,
     stock: 4,
     sale: 0,
   },
@@ -257,7 +257,7 @@ export const PRODUCTS = [
     img: Ps5Controller,
     description: "PlayStation DualSense® Wireless Controller - White",
     rating: 4.8,
-    qRating: 23,
+    reviews: 23,
     stock: 9,
     sale: 0,
   },
@@ -269,7 +269,7 @@ export const PRODUCTS = [
     img: PS4,
     description: "Sony Playstation PS4 1TB Black Console",
     rating: 4.8,
-    qRating: 45,
+    reviews: 45,
     stock: 2,
     sale: 15,
   },
@@ -281,7 +281,7 @@ export const PRODUCTS = [
     img: Ps4Controller,
     description: "Sony PS4 Dualshock 4 Wireless Controller - Black",
     rating: 4.2,
-    qRating: 54,
+    reviews: 54,
     stock: 5,
     sale: 0,
   },
@@ -293,7 +293,7 @@ export const PRODUCTS = [
     img: PS5,
     description: "PlayStation 5 Console CFI-1102A",
     rating: 4.7,
-    qRating: 78,
+    reviews: 78,
     stock: 23,
     sale: 15,
   },
@@ -305,7 +305,7 @@ export const PRODUCTS = [
     img: Switch,
     description: "Nintendo Switch™ with Neon Blue and Neon Red Joy-Con",
     rating: 4.8,
-    qRating: 32,
+    reviews: 32,
     stock: 5,
     sale: 0,
   },
@@ -318,7 +318,7 @@ export const PRODUCTS = [
     description:
       "Optimized for personal, handheld play, the Nintendo Switch Lite is a small and light Nintendo Switch system ",
     rating: 4.5,
-    qRating: 25,
+    reviews: 25,
     stock: 9,
     sale: 0,
   },
@@ -331,7 +331,7 @@ export const PRODUCTS = [
     description:
       "Xbox Core Wireless Gaming Controller Xbox Series X|S, Xbox One, Windows PC, Android, and iOS",
     rating: 4.8,
-    qRating: 26,
+    reviews: 26,
     stock: 4,
     sale: 5,
   },
@@ -344,7 +344,7 @@ export const PRODUCTS = [
     description:
       "Xbox Series S – Starter Bundle - Includes hundreds of games with Game Pass Ultimate 3 Month Membership - 512GB SSD All-Digital Gaming Console",
     rating: 4.8,
-    qRating: 45,
+    reviews: 45,
     stock: 4,
     sale: 0,
   },
@@ -357,7 +357,7 @@ export const PRODUCTS = [
     description:
       "Microsoft Xbox Series S 1TB SSD Console Carbon Black - Includes Xbox Wireless Controller - Up to 120 frames per second - 10GB RAM 1TB SSD - Experience high dynamic range - Xbox Velocity Architecture",
     rating: 4.6,
-    qRating: 42,
+    reviews: 42,
     stock: 2,
     sale: 0,
   },
@@ -370,7 +370,7 @@ export const PRODUCTS = [
     description:
       " 40 mm drivers with rare earth magnets and copper-clad aluminum wire voice coils, Tuned for enhanced low-frequency performance ",
     rating: 3.4,
-    qRating: 10,
+    reviews: 10,
     stock: 5,
     sale: 0,
   },
@@ -383,7 +383,7 @@ export const PRODUCTS = [
     description:
       "Audio-Technica ATH-M40x Professional Studio Monitor Headphone, Black, with Cutting Edge Engineering, 90 Degree Swiveling Earcups, Pro-grade Earpads/Headband, Detachable Cables Included",
     rating: 3.9,
-    qRating: 23,
+    reviews: 23,
     stock: 6,
     sale: 0,
   },
@@ -396,7 +396,7 @@ export const PRODUCTS = [
     description:
       "Audio-Technica ATH-M50X Professional Studio Monitor Headphones, Black, Professional Grade, Critically Acclaimed, with Detachable Cable ",
     rating: 4.3,
-    qRating: 31,
+    reviews: 31,
     stock: 5,
     sale: 0,
   },
@@ -409,7 +409,7 @@ export const PRODUCTS = [
     description:
       "beyerdynamic 459038 DT-990-Pro-250 Professional Acoustically Open Headphones 250 Ohms",
     rating: 4.2,
-    qRating: 19,
+    reviews: 19,
     stock: 4,
     sale: 0,
   },
@@ -422,7 +422,7 @@ export const PRODUCTS = [
     description:
       "The HD 400S features a one-button smart remote conveniently located on the cable, which allows you to control music and take calls with ease, and the sturdy folding design makes these headphones durable and compact enough to be taken anywhere",
     rating: 3.9,
-    qRating: 10,
+    reviews: 10,
     stock: 6,
     sale: 0,
   },
@@ -435,7 +435,7 @@ export const PRODUCTS = [
     description:
       "WH-1000XM5 Noise Canceling Wireless Headphones - 30hr Battery Life - Over-Ear Style - Optimized for Alexa and Google Assistant - Built-in mic for Calls Limited Edition - Charcoal",
     rating: 4.5,
-    qRating: 56,
+    reviews: 56,
     stock: 3,
     sale: 0,
   },
@@ -448,7 +448,7 @@ export const PRODUCTS = [
     description:
       "WF-C700N Truly Wireless Noise Canceling in-Ear Bluetooth Earbud Headphones with Mic and IPX4 Water Resistance, Black",
     rating: 4.1,
-    qRating: 23,
+    reviews: 23,
     stock: 9,
     sale: 0,
   },
@@ -461,7 +461,7 @@ export const PRODUCTS = [
     description:
       "WH-CH520 Best Wireless Bluetooth On-Ear Headphones with Microphone for Calls and Voice Control, Up to 50 Hours Battery Life with Quick Charge Function, Includes USB-C Charging Cable",
     rating: 4.3,
-    qRating: 29,
+    reviews: 29,
     stock: 2,
     sale: 9,
   },
@@ -474,7 +474,7 @@ export const PRODUCTS = [
     description:
       "Xiaomi Redmi Buds 4 Wireless Earbuds ANC, Hybrid Active Noise Cancelling Dual Transparency Modes Bluetooth 5.2 in-Ear Earphones with 30 Hours Playtime Deep Bass Earphones for iPhone and Android, White ",
     rating: 3.9,
-    qRating: 31,
+    reviews: 31,
     stock: 7,
     sale: 0,
   },
@@ -487,7 +487,7 @@ export const PRODUCTS = [
     description:
       "Xiaomi Redmi Buds 4 Pro Wireless Earbuds, Up to 43dB Hybrid ANC, Bluetooth 5.3 Earbuds, Up to 36 Hours Long Battery Life, 3-mic Noise Reduction for Calls, in-Ear Detection, Dual Transparency Modes",
     rating: 4.1,
-    qRating: 33,
+    reviews: 33,
     stock: 1,
     sale: 0,
   },
@@ -500,7 +500,7 @@ export const PRODUCTS = [
     description:
       "6.1-inch Super Retina XDR display with ProMotion. 5G Superfast downloads, high-quality streaming Cinematic mode in 1080p at 30 fps. Dolby Vision HDR video recording up to 4K at 60 fps",
     rating: 4.3,
-    qRating: 34,
+    reviews: 34,
     stock: 12,
     sale: 10,
   },
@@ -513,7 +513,7 @@ export const PRODUCTS = [
     description:
       "6.1-inch Super Retina XDR display with ProMotion. 5G Superfast downloads, high-quality streaming Cinematic mode in 1080p at 30 fps. Dolby Vision HDR video recording up to 4K at 60 fps. 6X Optical zoom range ",
     rating: 4.4,
-    qRating: 41,
+    reviews: 41,
     stock: 9,
     sale: 12,
   },
@@ -526,7 +526,7 @@ export const PRODUCTS = [
     description:
       "Galaxy S23 Unlocked Android Smartphone, 128GB, 50MP Camera, Night Mode, 8K Video, Long Battery Life, Fastest Mobile Processor, Adaptive Display, US Version, Phantom Black",
     rating: 4.4,
-    qRating: 45,
+    reviews: 45,
     stock: 12,
     sale: 15,
   },
@@ -539,7 +539,7 @@ export const PRODUCTS = [
     description:
       "Galaxy S23 Ultra Cell Phone, Unlocked Android Smartphone, 256GB, 200MP Camera, S Pen, Night Mode, Record 8K Video, Long Battery Life, Fastest Mobile Processor, US Version, 2023",
     rating: 4.3,
-    qRating: 34,
+    reviews: 34,
     stock: 4,
     sale: 0,
   },
@@ -552,7 +552,7 @@ export const PRODUCTS = [
     description:
       "SAMSUNG Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 256GB, 120Hz Display Screen, Pro Grade Camera, All Day Intelligent Battery, US Version, Graphite",
     rating: 4.2,
-    qRating: 23,
+    reviews: 23,
     stock: 4,
     sale: 0,
   },
@@ -565,7 +565,7 @@ export const PRODUCTS = [
     description:
       "Galaxy Z Flip 5 Cell Phone, Unlocked Android Smartphone, 256GB, Compact, Foldable Design, One-Hand Control, Best Selfies, 12MP Camera, Large Cover Screen, US Version, 2023",
     rating: 4.1,
-    qRating: 45,
+    reviews: 45,
     stock: 12,
     sale: 0,
   },
@@ -578,7 +578,7 @@ export const PRODUCTS = [
     description:
       "Galaxy Z Fold 5 Cell Phone, Factory Unlocked Android Smartphone, 256GB, Big 7.6” Screen for Streaming, Gaming, Dual App View, One-Hand Control, Hands-Free Use, US Version, 2023",
     rating: 4.2,
-    qRating: 54,
+    reviews: 54,
     stock: 4,
     sale: 0,
   },
@@ -591,7 +591,7 @@ export const PRODUCTS = [
     description:
       "Xiaomi Mi 11 Lite (128GB, 6GB) 6.55” 90HZ AMOLED, 64MP Triple Camera, Snapdragon 732G, Dual SIM GSM Unlocked (US + Global) 4G LTE International Version (Fast Car Charger Bundle, Boba Black) ",
     rating: 4.1,
-    qRating: 34,
+    reviews: 34,
     stock: 9,
     sale: 0,
   },
@@ -604,7 +604,7 @@ export const PRODUCTS = [
     description:
       "Xiaomi Redmi Note 13 5G + 4G LTE (128GB + 6GB) 6.67inch 108MP Triple (Tmobile Mint Tello & Global) Global Bands Unlocked + (Fast Car Dual Charger Bundle) (Midnight Black (Global ROM)) ",
     rating: 4.2,
-    qRating: 21,
+    reviews: 21,
     stock: 4,
     sale: 0,
   },
@@ -617,7 +617,7 @@ export const PRODUCTS = [
     description:
       "Watch Series 7 [GPS + Cellular 45mm] Smart Watch w/Graphite Stainless Steel Case with Abyss Blue Sport Band. Fitness Tracker, Blood Oxygen & ECG Apps, Always-On Retina Display, Water Resistant",
     rating: 3.8,
-    qRating: 21,
+    reviews: 21,
     stock: 2,
     sale: 0,
   },
@@ -630,7 +630,7 @@ export const PRODUCTS = [
     description:
       "Watch Series 8 [GPS 45mm] Smart Watch w/ Midnight Aluminum Case with Midnight Sport Band - M/L with AppleCare+ (2 Years)",
     rating: 3.9,
-    qRating: 34,
+    reviews: 34,
     stock: 1,
     sale: 10,
   },
@@ -643,7 +643,7 @@ export const PRODUCTS = [
     description:
       "Galaxy Watch 3 (41mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring, Fitness Tracking, and Long Lasting Battery",
     rating: 3.9,
-    qRating: 23,
+    reviews: 23,
     stock: 5,
     sale: 0,
   },
@@ -656,7 +656,7 @@ export const PRODUCTS = [
     description:
       "Galaxy Watch 4 40mm Smartwatch with ECG Monitor Tracker for Health, Fitness, Running, Sleep Cycles, GPS Fall Detection, Bluetooth, US Version, SM-R860NZKAXAA, Black",
     rating: 4.1,
-    qRating: 34,
+    reviews: 34,
     stock: 6,
     sale: 0,
   },
@@ -669,7 +669,7 @@ export const PRODUCTS = [
     description:
       "Galaxy Watch Active 2 (40mm, GPS, Bluetooth) Smart Watch with Advanced Health Monitoring, Fitness Tracking, and Long lasting Battery, Pink Gold (US Version)",
     rating: 4.1,
-    qRating: 21,
+    reviews: 21,
     stock: 4,
     sale: 0,
   },
@@ -682,7 +682,7 @@ export const PRODUCTS = [
     description:
       "Xiaomi Redmi Smart Watch 3, 1.75 Inch AMOLED Touch Display, 5ATM Water Resistant, 12 Days Battery Life, GPS, 120 Workout Mode, Heart Rate Monitor, Calori Consumption, Fitness Activity Tracker",
     rating: 4.1,
-    qRating: 42,
+    reviews: 42,
     stock: 9,
     sale: 10,
   },
