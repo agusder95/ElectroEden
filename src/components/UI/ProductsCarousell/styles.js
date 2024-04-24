@@ -39,11 +39,12 @@ export const CarousellCountainer = styled.ul`
 
 export const ProductCard = styled.li`
   height: 100%;
-  background-color: red;
-  border-right: 1px solid grey;
+  /* background-color: red;
+  border-right: 1px solid grey; */
+  padding: 10px;
 `;
 
-export const ButtonCountainer = styled.div`
+/* export const ButtonCountainer = styled.div`
   display: flex;
   position: absolute;
   justify-content: space-between;
@@ -52,13 +53,24 @@ export const ButtonCountainer = styled.div`
   max-height: 2.5rem;
   height: 30%;
   z-index: 1;
-`;
+`; */
 
 export const ButtonCarousell = styled.button`
   border-radius: 50%;
+  position: absolute;
   padding: 5px;
-  height: 100%;
+  height: 2.5rem;
   border: none;
   background-color: ${colors.transparentButton};
+  box-shadow: 0px 0px 13px -6px ${colors.grey};
+  -webkit-box-shadow: 0px 0px 13px -6px ${colors.grey};
+  -moz-box-shadow: 0px 0px 13px -6px ${colors.grey};
   cursor: pointer;
+  z-index: 1;
+  &:first-child {
+    left: 10px;
+  }
+  &:last-child {
+    right: 10px;
+  }
 `;
