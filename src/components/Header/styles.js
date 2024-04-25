@@ -7,7 +7,10 @@ export const HeaderWrapper = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  border-bottom: 1px solid ${colors.grey};
+  /* border-bottom: 1px solid ${colors.grey}; */
+  box-shadow: 0px -3px 26px -6px ${colors.grey};
+-webkit-box-shadow: 0px -3px 26px -6px ${colors.grey};
+-moz-box-shadow: 0px -3px 26px -6px ${colors.grey};
   height: 90px;
 `;
 

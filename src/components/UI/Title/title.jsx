@@ -6,7 +6,7 @@ import {
   Txt,
 } from "./styles";
 
-const SectionSeparator = ({ sectionName,title }) => {
+const Title = ({ sectionName,title }) => {
   return (
     <SectionSeparatorWrapper>
       <TitleCountainer>
@@ -18,4 +18,4 @@ const SectionSeparator = ({ sectionName,title }) => {
   );
 };
 
-export default SectionSeparator;
+export default Title;

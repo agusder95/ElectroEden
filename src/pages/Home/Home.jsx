@@ -1,20 +1,22 @@
 import React from "react";
 import Banner from "../../components/UI/BannerCarousell/Banner";
-import SectionSeparator from "../../components/SectionSeparator/sectSep";
-import ProductsCarousell from "../../components/UI/ProductsCarousell/ProdCarousell";
 import SeparatorBar from "../../components/UI/SectionSeparator/sectionSeparator";
+import SectCategories from "../../components/SectionCategories/sCategories";
+import SectionSalesFlash from "../../components/SectionSalesFl/sectionSalesFl";
+import SectionBest from "../../components/SectionBest/sectionBest";
+import SectServices from "../../components/SectionServices/sectServices";
 
 const Home = () => {
   return (
     <>
       <Banner />
-      <SectionSeparator sectionName="Today's" title={"Flash Sales"}/>
-      <ProductsCarousell />
+      <SectionSalesFlash />
       <SeparatorBar />
-      <SectionSeparator sectionName="This Month" title={"Best Selling"}/>
-      <ProductsCarousell />
+      <SectionBest />
       <SeparatorBar />
-      <SectionSeparator sectionName="Categories" title={"Browse By Category"}/>
+      <SectCategories />
+      <SeparatorBar />
+      <SectServices />
     </>
   );
 };

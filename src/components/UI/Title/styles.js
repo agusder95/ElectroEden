@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import { colors } from "../../assets/styles/colors";
+import { colors } from "../../../assets/styles/colors";
 
 export const SectionSeparatorWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
   margin: 2.5rem 0.5rem;
   @media screen and (min-width: 320px) {
@@ -16,13 +16,16 @@ export const SectionSeparatorWrapper = styled.div`
   @media screen and (min-width: 1024px) {
     height: 7rem;
   }
+  h1{
+    margin-left: 2rem;
+  }
 `;
 
 export const TitleCountainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
+  margin-bottom: 1rem;
   @media screen and (min-width: 320px) {
     height: 2rem;
   }
